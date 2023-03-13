@@ -8,6 +8,10 @@ export default function Home() {
   const [[first,second], setPokemon] = useState([0,0]);
   useEffect(() => setPokemon([auxFirst,auxSecond]), []);
 
+  /* const [ids, updateIds] = useState(() => getOptionsForVote());
+  const [first, second] = ids; */
+  
+
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
       <div className="text-2xl text-center">Which Pokemon is rounder?</div>
