@@ -9,7 +9,7 @@ export const getRandomPokemon: (notThisOne?: number) => number = (
     return getRandomPokemon(notThisOne);
 };
 
-export const getOptionsForVOte = () => {
+export const getOptionsForVote = () => {
     const firstId = getRandomPokemon();
     const secondId = getRandomPokemon(firstId);
 
